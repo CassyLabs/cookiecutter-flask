@@ -1,0 +1,18 @@
+machine:
+  python:
+    version: 3.6
+  post:
+    - pyenv global 3.4 3.5 3.6
+  node:
+    version: 6.10
+
+dependencies:
+  pre:
+    - pipenv install --dev
+    - pip install invoke==0.14.0
+    - pip install pipenv
+    - npm install
+  post:
+    - npm run lint
+    - npm run build
+    - flask lint
