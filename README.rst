@@ -1,9 +1,9 @@
 cookiecutter-flask
 ==================
 
-A Flask template for cookiecutter_ adapted to use `Pipenv https://github.com/kennethreitz/pipenv` instead of requirements.txt.
+A Flask template for cookiecutter adapted to use `Pipenv https://github.com/kennethreitz/pipenv` instead of requirements.txt.
 
-Originally forked of `Steven Loria's cookiecutter https://github.com/sloria/cookiecutter-flask`.
+Originally forked from `Steven Loria's cookiecutter https://github.com/sloria/cookiecutter-flask`.
 
 Use it now
 ----------
