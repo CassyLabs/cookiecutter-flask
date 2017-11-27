@@ -1,21 +1,16 @@
 cookiecutter-flask
 ==================
 
-A Flask template for cookiecutter_.
+A Flask template for cookiecutter_ adapted to use `Pipenv https://github.com/kennethreitz/pipenv` instead of requirements.txt.
 
-.. _cookiecutter: https://github.com/audreyr/cookiecutter
-
-.. image:: https://travis-ci.org/sloria/cookiecutter-flask.svg
-    :target: https://travis-ci.org/sloria/cookiecutter-flask
-    :alt: Build Status
-
+Originally forked of `Steven Loria's cookiecutter https://github.com/sloria/cookiecutter-flask`.
 
 Use it now
 ----------
 ::
 
     $ pip install cookiecutter
-    $ cookiecutter https://github.com/sloria/cookiecutter-flask.git
+    $ cookiecutter https://github.com/dcassiano/cookiecutter-flask.git
 
 You will be asked about your basic info (name, project name, app name, etc.). This info will be used in your new project.
 
@@ -36,6 +31,7 @@ Features
 - Caching using Flask-Cache
 - Useful debug toolbar
 - Utilizes best practices: `Blueprints <http://flask.pocoo.org/docs/blueprints/>`_ and `Application Factory <http://flask.pocoo.org/docs/patterns/appfactories/>`_ patterns
+- Dependencies managed by `Pipenv https://github.com/kennethreitz/pipenv`
 
 Screenshots
 -----------
@@ -69,6 +65,11 @@ BSD licensed.
 
 Changelog
 ---------
+
+0.14.0 (11/27/2017)
+*******************
+
+- Added Pipenv as default packaging tool.
 
 0.13.0 (06/25/2017)
 *******************
@@ -217,5 +218,3 @@ Thanks @andreoliw for these contributions.
 - First iteration
 - Bootstrap 3 final
 - Working User model and registration
-
-
